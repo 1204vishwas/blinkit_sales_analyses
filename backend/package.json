@@ -1,0 +1,25 @@
+{
+  "name": "blinkit-sales-backend",
+  "version": "1.0.0",
+  "description": "Sapphire IQ - BlinkIT Grocery Sales Analytics Backend API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "blinkit",
+    "grocery-sales",
+    "data-analytics",
+    "sapphire-iq"
+  ],
+  "author": "Ram - Sapphire IQ Data Analytics",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "xlsx": "^0.18.5"
+  }
+}
